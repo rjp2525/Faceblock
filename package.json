@@ -1,0 +1,27 @@
+{
+  "name": "faceblock-server",
+  "version": "1.0.0",
+  "description": "Faceblock backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rjp2525/Faceblock.git"
+  },
+  "keywords": [
+    "faceblock",
+    "nodejs"
+  ],
+  "author": "Reno Philibert",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/rjp2525/Faceblock/issues"
+  },
+  "homepage": "https://github.com/rjp2525/Faceblock",
+  "dependencies": {
+    "express": "^4.11.1",
+    "hbs": "^2.8.0"
+  }
+}
