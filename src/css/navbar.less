@@ -167,6 +167,7 @@
   font-size: @font-size-large;
   line-height: @line-height-computed;
   height: @navbar-height;
+  text-transform: uppercase;
 
   &:hover,
   &:focus {
@@ -232,11 +233,13 @@
 
 .navbar-nav {
   margin: (@navbar-padding-vertical / 2) -@navbar-padding-horizontal;
+  font-family: 'Source Sans Pro', sans-serif;
 
   > li > a {
     padding-top:    10px;
     padding-bottom: 10px;
     line-height: @line-height-computed;
+    text-transform: uppercase;
   }
 
   @media (max-width: @grid-float-breakpoint-max) {
@@ -537,6 +540,10 @@
       color: @navbar-inverse-brand-hover-color;
       background-color: @navbar-inverse-brand-hover-bg;
     }
+
+    > span {
+      color: #3fa5ff;
+    }
   }
 
   .navbar-text {
@@ -545,6 +552,7 @@
 
   .navbar-nav {
     > li > a {
+      .transition(all .3s ease-in-out);
       color: @navbar-inverse-link-color;
 
       &:hover,

@@ -1,1 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,600italic);
 @import "bootstrap.less";
+
+body {
+	background: #222;
+}
+
+.home {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	background: url(../img/background.jpg) no-repeat center;
+	display: flex;
+	color: #fefefe;
+	//text-transform: uppercase;
+
+	.welcome {
+		text-align: center;
+		font-family: 'Source Sans Pro', sans-serif;
+		margin: auto;
+
+		.main-title {
+			font-weight: 300;
+		}
+
+		.sub-title {
+			font-weight: 300;
+			color: #999;
+
+			> span {
+				color: #fefefe;
+				font-weight: 600;
+				font-style: italic;
+			}
+		}
+	}
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

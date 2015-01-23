@@ -10,7 +10,7 @@ var globs = {
     js: 'src/js/**/*.{js,coffee}',
     html: 'src/*.html',
     images: 'src/img/**',
-    misc: 'src/**/*.{ico,eot,woff,ttf,php}'
+    misc: 'src/**/*.{ico,eot,woff,ttf,php,svg}'
 };
 
 gulp.task('css', function() {
